@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className='font-sans   eeee'>
+    <div className='font-sans'>
       <App />
     </div>
   </StrictMode>
