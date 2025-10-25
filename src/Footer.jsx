@@ -1,7 +1,9 @@
 import React from 'react'
 import Lifelogo from "./assets/Lifelogo.png";
 
+const currentYear = new Date().getFullYear();
 const Footer = () => {
+
   return (
     <div className="bg-[#2D2726] text-[#F9F3F2]  p-6 sm:p-10">
       <div>
@@ -28,7 +30,7 @@ const Footer = () => {
       </div>
       <div>
         <p className="mt-4 text-[10px] sm:text-xs md:text-sm">
-          Copyright Lifegasm Org 2025
+          Copyright Lifegasm Org {currentYear}
         </p>
       </div>
     </div>

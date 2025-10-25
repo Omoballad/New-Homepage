@@ -8,6 +8,9 @@ import Consultation from "./Consultation";
 import About from './About';
 import Waitlist from "./Waitlist";
 import Subscription from "./Subscription";
+import Contact from "./Contact";
+import Journal from "./Journal";
+import Design from "./Design";
 
 const App = () => {
   return (
@@ -22,6 +25,10 @@ const App = () => {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/waitlist" element={<Waitlist />} />
           <Route path="/subscription" element={<Subscription />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/journal" element={<Journal />} />
+          <Route path="/design" element={<Design />} />
+         
         </Route>
       </Routes>
     </BrowserRouter>

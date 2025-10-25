@@ -70,13 +70,13 @@ const Waitlist = () => {
         <img src={Lifegasm} alt="logo" className="mx-auto h-8 sm:h-10" />
       </div>
 
-      <div className="container  px-4 sm:px-6 lg:px-8">
+      <div className="">
         <div className="flex flex-col-reverse lg:flex-row gap-20 ">
           <div className="relative">
             <img
               src={Bedsheet}
               alt="Bedsheet"
-              className="w-full h-auto block rounded"
+              className="w-full h-auto block rounded-lg bedsheet-anim"
             />
             <div className="absolute inset-0 flex flex-col mt-10 lg:mt-10 text-center bg-opacity-50">
               <h2 className="text-2xl sm:text-3xl font-semibold text-white">
@@ -252,6 +252,20 @@ const Waitlist = () => {
           </form>
         </div>
       </div>
+
+      <style>{`
+        .bedsheet-anim {
+          transform-origin: center;
+          animation: bedsheet-bob 3.5s ease-in-out infinite;
+          will-change: transform;
+        }
+
+        @keyframes bedsheet-bob {
+          // 0%   { transform: translateY(0) rotate(-1deg); }
+          50%  { transform: translateY(-8px) rotate(1deg); }
+        
+        }
+      `}</style>
     </div>
   );
 };

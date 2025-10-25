@@ -48,7 +48,7 @@ const Dashboard = () => {
             <div key={index} className="relative">
               <img src={frame.imgSrc} alt="" />
 
-              <button className="absolute bottom-18 text-[#F9F3F2] bg-[#2D2726] mx-4 py-3 left-5 cursor-pointer transition duration-300 hover:bg-[#364D80] transform-3d hover:scale-105 text-xs sm:text-sm md:text-base px-2 sm:px-4">
+              <button className="absolute bottom-18 hover:bg-[#F9F3F2] hover:text-[#2D2726] text-[#F9F3F2] bg-[#2D2726] mx-4 py-3 left-5 cursor-pointer transition ease-linear duration-600   text-xs sm:text-sm md:text-base px-2 sm:px-4">
                 {frame.buttonText}
               </button>
             </div>

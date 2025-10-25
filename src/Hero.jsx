@@ -13,7 +13,7 @@ const Hero = () => {
           Discover thoughtfully designed interiors and handcrafted pieces that
           bring warmth, function, and beauty into your space.
         </p>
-        <button className="bg-[#2D2726] max-[281px]:py-1 max-[281px]:px-2 text-[#F9F3F2] px-3 md:px-4 sm:px-6 py-2 rounded transition duration-300 hover:bg-[#364D80] cursor-pointer text-xs sm:text-base">
+        <button className="bg-[#2D2726] max-[281px]:py-1 max-[281px]:px-2 text-[#F9F3F2] px-3 md:px-4 sm:px-6 py-2 rounded transition duration-300 ease-linear hover:bg-[#F9F3F2] hover:text-[#2D2726] cursor-pointer text-xs sm:text-base">
           Shop our Collection
         </button>
       </div>

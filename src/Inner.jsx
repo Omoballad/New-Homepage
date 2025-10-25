@@ -18,77 +18,78 @@ const Inner = () => {
       </div>
 
       <div className="w-full px-4 sm:px-6 md:px-8 lg:px-0">
-        <div className="max-w-6xl mx-auto my-8">
-          <p className="mt-4 text-[#70615F] font-medium text-base sm:text-lg md:text-xl leading-relaxed">
-            Nestled in the heart of Lekki’s bustling creative district, The
-            <br className="hidden md:block" />
-            Artisan Loft was designed as a multi-functional living space
-            <br className="hidden md:block" /> that reflects the client’s love
-            for minimalist design, earthy
-            <br className="hidden md:block" /> materials, and subtle luxury. The
-            project involved a full
-            <br className="hidden md:block" /> renovation of a 3-bedroom
-            apartment into an open-concept
-            <br className="hidden md:block" /> space combining a home office,
-            relaxation zones, and
-            <br className="hidden md:block" /> entertaining areas. Our task was
-            to create a serene, functional
-            <br className="hidden md:block" /> environment where simplicity
-            meets sophistication—carefully
-            <br className="hidden md:block" /> balancing texture, light, and
-            spatial harmony.
-          </p>
-
-          <div className="mt-6">
-            <h2 className="font-medium text-[#70615F] text-lg sm:text-xl md:text-2xl">
-              Project Goals
-            </h2>
-            <p className="mt-2 font-medium text-[#70615F] text-base sm:text-lg md:text-xl leading-relaxed">
-              Transform a dated apartment into a modern, airy loft-style home.
+        <div className="max-w-6xl mx-auto my-8 md:flex md:items-center md:justify-between md:gap-3">
+          <div>
+            <p className="mt-4 text-[#70615F] font-medium text-base sm:text-lg md:text-xl leading-relaxed">
+              Nestled in the heart of Lekki’s bustling creative district, The
               <br className="hidden md:block" />
-              Blend natural materials with a muted, warm color palette.
-              <br className="hidden md:block" /> Optimize lighting and flow
-              across shared and private areas.
-              <br className="hidden md:block" /> Incorporate artisanal,
-              locally-sourced décor elements.
-              <br className="hidden md:block" /> Ensure flexibility in the
-              layout for work-from-home functionality.
+              Artisan Loft was designed as a multi-functional living space
+              <br className="hidden md:block" /> that reflects the client’s love
+              for minimalist design, earthy
+              <br className="hidden md:block" /> materials, and subtle luxury.
+              The project involved a full
+              <br className="hidden md:block" /> renovation of a 3-bedroom
+              apartment into an open-concept
+              <br className="hidden md:block" /> space combining a home office,
+              relaxation zones, and
+              <br className="hidden md:block" /> entertaining areas. Our task
+              was to create a serene, functional
+              <br className="hidden md:block" /> environment where simplicity
+              meets sophistication—carefully
+              <br className="hidden md:block" /> balancing texture, light, and
+              spatial harmony.
             </p>
+
+            <div className="mt-6">
+              <h2 className="font-medium text-[#70615F] text-lg sm:text-xl md:text-2xl">
+                Project Goals
+              </h2>
+              <p className="mt-2 font-medium text-[#70615F] text-base sm:text-lg md:text-xl leading-relaxed">
+                Transform a dated apartment into a modern, airy loft-style home.
+                <br className="hidden md:block" />
+                Blend natural materials with a muted, warm color palette.
+                <br className="hidden md:block" /> Optimize lighting and flow
+                across shared and private areas.
+                <br className="hidden md:block" /> Incorporate artisanal,
+                locally-sourced décor elements.
+                <br className="hidden md:block" /> Ensure flexibility in the
+                layout for work-from-home functionality.
+              </p>
+            </div>
+
+            <div className="mt-6">
+              <h2 className="font-medium text-[#70615F] text-lg sm:text-xl md:text-2xl">
+                Moodboard
+              </h2>
+            </div>
+
+            <div className="mt-2 font-medium text-[#70615F] text-base sm:text-lg md:text-xl leading-relaxed">
+              <span>
+                Color Palette: Warm neutrals, soft greys, clay browns, and
+                off-white.
+                <br className="hidden md:block" /> Textures: Raw concrete,
+                polished wood, brushed brass, jute, linen.
+                <br className="hidden md:block" /> Inspiration Sources:
+                Scandinavian calm, African craftsmanship, biophilic design.
+                <br className="hidden md:block" /> The moodboard served as a
+                visual compass throughout the
+                <br className="hidden md:block" />
+                project, keeping us aligned with the client’s vision while
+                <br className="hidden md:block" />
+                allowing room for organic creativity.
+              </span>
+            </div>
           </div>
 
-          <div className="mt-6">
-            <h2 className="font-medium text-[#70615F] text-lg sm:text-xl md:text-2xl">
-              Moodboard
-            </h2>
-          </div>
-
-          <div className="mt-2 font-medium text-[#70615F] text-base sm:text-lg md:text-xl leading-relaxed">
-            <span>
-              Color Palette: Warm neutrals, soft greys, clay browns, and
-              off-white.
-              <br className="hidden md:block" /> Textures: Raw concrete,
-              polished wood, brushed brass, jute, linen.
-              <br className="hidden md:block" /> Inspiration Sources:
-              Scandinavian calm, African craftsmanship, biophilic design.
-              <br className="hidden md:block" /> The moodboard served as a
-              visual compass throughout the
-              <br className="hidden md:block" />
-              project, keeping us aligned with the client’s vision while
-              <br className="hidden md:block" />
-              allowing room for organic creativity.
-            </span>
-          </div>
-
-          <div className="mt-6 flex justify-center">
-            <motion.img
+          <motion.img
               src={Rooms2}
               alt=""
-              className="w-full max-w-md md:max-w-xl rounded-lg shadow"
+              className=" md:h-[600px] rounded-lg max-w-full mx-auto  md:mx-0 md:px-0"
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             />
-          </div>
+          {/* <img src={Rooms2} className="h-[600px]" alt="" /> */}
         </div>
       </div>
 
