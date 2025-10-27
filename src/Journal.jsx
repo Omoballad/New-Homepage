@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Glass from "./assets/Glass.png";
-import Stairss from "./assets/Stairss.png";
-import Flex from "./assets/Flex.png";
-import Desk from "./assets/Desk.png";
+import Glass from "./images/Glass.png";
+import Stairss from "./images/Stairss.png";
+import Flex from "./images/Flex.png";
+import Desk from "./images/Desk.png";
 import { motion } from "framer-motion";
 import Footer from "./Footer";
 

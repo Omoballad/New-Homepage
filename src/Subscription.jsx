@@ -1,6 +1,6 @@
 import React from "react";
-import Lifegasm from "./assets/Lifegasm.png";
-import Bedsheet from "./assets/Bedsheet.png";
+import Lifegasm from "./images/Lifegasm.png";
+import Bedsheet from "./images/Bedsheet.png";
 
 const Subscription = () => {
   return (

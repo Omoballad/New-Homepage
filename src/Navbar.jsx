@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import Lifegasm from "./assets/Lifegasm.png";
+import Lifegasm from "./images/Lifegasm.png";
 import { PiShoppingBag } from "react-icons/pi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5"; // close icon

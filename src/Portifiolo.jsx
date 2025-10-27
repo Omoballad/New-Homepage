@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "./Navbar";
-import HeroImage from "./assets/HeroImage.png";
-import Clothe1 from "./assets/Clothe1.png";
-import Clothe2 from "./assets/Clothe2.png";
-import Clothe3 from "./assets/Clothe3.png";
-import Clothe4 from "./assets/Clothe4.png";
-import Clothe5 from "./assets/Clothe5.png";
-import Clothe6 from "./assets/Clothe6.png";
+import HeroImage from "./images/HeroImage.png";
+import Clothe1 from "./images/Clothe1.png";
+import Clothe2 from "./images/Clothe2.png";
+import Clothe3 from "./images/Clothe3.png";
+import Clothe4 from "./images/Clothe4.png";
+import Clothe5 from "./images/Clothe5.png";
+import Clothe6 from "./images/Clothe6.png";
 import Footer from "./Footer";
 
 const Portifiolo = () => {

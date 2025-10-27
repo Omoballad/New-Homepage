@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
-import Swatches from "./assets/Swatches.png";
-import Armchair from "./assets/Armchair.png";
-import FlowerLotus from "./assets/FlowerLotus.png";
+// import Swatches from "./assets/Swatches.png";
+// import Armchair from "./assets/Armchair.png";
+// import FlowerLotus from "./assets/FlowerLotus.png";
+
+import Swatches from "./images/Swatches.png";
+import Armchair from "./images/Armchair.png";
+import FlowerLotus from "./images/FlowerLotus.png";
 import Footer from "./Footer";
 
 const About = () => {

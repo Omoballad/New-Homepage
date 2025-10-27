@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Frame53 from "./assets/Frame53.png";
+import Frame53 from "./images/Frame53.png";
 import { GoCircle } from "react-icons/go";
 import { motion } from "framer-motion";
 import Footer from "./Footer";

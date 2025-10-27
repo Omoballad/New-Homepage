@@ -1,8 +1,8 @@
 // ...existing code...
 import React, { useState } from "react";
 import Navbar from "./Navbar";
-import Bedsheet from "./assets/Bedsheet.png";
-import Lifegasm from "./assets/Lifegasm.png";
+import Bedsheet from "./images/Bedsheet.png";
+import Lifegasm from "./images/Lifegasm.png";
 
 const Waitlist = () => {
   const [form, setForm] = useState({

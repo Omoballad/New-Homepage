@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import Navbar from './Navbar'
-import Bedsheet from "./assets/Bedsheet.png";
+import Bedsheet from "./images/Bedsheet.png";
 import Footer from "./Footer";
 const Contact = () => {
 

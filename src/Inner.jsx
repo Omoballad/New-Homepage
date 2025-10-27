@@ -1,11 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Navbar from "./Navbar";
-import Rooms from "./assets/Rooms.png";
-import Rooms2 from "./assets/Rooms2.png";
-import Stairs from "./assets/Stairs.png";
-import Dinning from "./assets/Dinning.png";
-import Table from "./assets/Table.png";
+import Rooms from "./images/Rooms.png";
+import Rooms2 from "./images/Rooms2.png";
+import Stairs from "./images/Stairs.png";
+import Dinning from "./images/Dinning.png";
+import Table from "./images/Table.png";
 import Footer from "./Footer";
 
 const Inner = () => {

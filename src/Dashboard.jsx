@@ -1,8 +1,12 @@
 import React from "react";
-import Frame1 from "./assets/IMG1.png";
-import Frame2 from "./assets/IMG2.png";
-import Frame3 from "./assets/IMG3.png";
-import Frame4 from "./assets/IMG4.png";
+// import Frame1 from "./assets/IMG1.png";
+// import Frame2 from "./assets/IMG2.png";
+// import Frame3 from "./assets/IMG3.png";
+// import Frame4 from "./assets/IMG4.png";
+import Frame1 from "./images/IMG1.png";
+import Frame2 from "./images/IMG2.png";
+import Frame3 from "./images/IMG3.png";
+import Frame4 from "./images/IMG4.png";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Footer from "./Footer";
@@ -31,7 +35,6 @@ const Dashboard = () => {
   // const navigate = useNavigate()
   return (
     <div className="w-full">
-      
       <div className="bg-[#364D80] text-[#F9F3F2] text-center p-2 text-xs sm:text-sm md:text-base">
         <h1>FREE SHIPPING ON ORDERS OVER ₦100,000</h1>
       </div>
@@ -48,7 +51,7 @@ const Dashboard = () => {
             <div key={index} className="relative">
               <img src={frame.imgSrc} alt="" />
 
-              <button className="absolute bottom-18 hover:bg-[#F9F3F2] hover:text-[#2D2726] text-[#F9F3F2] bg-[#2D2726] mx-4 py-3 left-5 cursor-pointer transition ease-linear duration-600   text-xs sm:text-sm md:text-base px-2 sm:px-4">
+              <button className="absolute bottom-18 hover:bg-[#F9F3F2] hover:text-[#2D2726] text-[#F9F3F2] bg-[#2D2726] mx-4 py-3 left-5 cursor-pointer transition ease duration-600   text-xs sm:text-sm md:text-base px-2 sm:px-4">
                 {frame.buttonText}
               </button>
             </div>

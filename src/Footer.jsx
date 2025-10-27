@@ -1,5 +1,5 @@
 import React from 'react'
-import Lifelogo from "./assets/Lifelogo.png";
+import Lifelogo from "./images/Lifelogo.png";
 
 const currentYear = new Date().getFullYear();
 const Footer = () => {
